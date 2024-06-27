@@ -1,66 +1,16 @@
-## Foundry
+# Certik Hack on Kracken POC
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Demonstrates how the attack was done. See TraceAttack.sol.
 
-Foundry consists of:
+## Further Reading
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Twitter threads:
 
-## Documentation
+- https://x.com/danielvf/status/1803780167027871878
+- https://x.com/c7five/thread/1803403632689189154
+- https://x.com/CertiK/thread/1803450205389402215
+- https://x.com/tayvano_/thread/1803684335813640242
 
-https://book.getfoundry.sh/
+Sample attack transaction:
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- https://polygonscan.com/tx/0xce7d8feb6f4a88f4a2694beb8f92be6a1670d3a8fa243ab3416b46f4576d3fc5
